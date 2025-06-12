@@ -12,7 +12,7 @@ export default function HeroSection() {
   const [currentText, setCurrentText] = useState(0)
 
   const heroTexts = [
-    "Maslay bhool jao yarFix bulao!",
+    "Maslay bhool jao YaarFix bulao!",
     "Your trusted home service partner!",
     "Professional fixes at your doorstep!",
   ]
@@ -85,7 +85,7 @@ export default function HeroSection() {
             <div className="relative h-[400px] lg:h-[500px] rounded-lg overflow-hidden shadow-xl">
               <Image
                 src="/images/yarfix-professional.jpeg"
-                alt="YarFix professional service provider"
+                alt="YaarFix professional service provider"
                 fill
                 className="object-cover"
                 priority
@@ -93,7 +93,7 @@ export default function HeroSection() {
             </div>
             <div className="mt-4 bg-slate-800 text-white p-4 rounded-lg shadow-lg lg:w-3/4 mx-auto">
               <p className="italic text-sm">
-                "YarFix connected me with the best professionals in my area. The service was prompt and the quality was
+                "YaarFix connected me with the best professionals in my area. The service was prompt and the quality was
                 exceptional!"
               </p>
               <p className="text-right font-semibold mt-2">- Satisfied Customer</p>

@@ -50,7 +50,7 @@ export default function Footer() {
           {/* Company Info */}
           <div className="space-y-4">
             <Link href="/" className="text-2xl font-bold text-orange-400">
-              YarFix
+              YaarFix
             </Link>
             <p className="text-gray-300 max-w-xs">
               Your trusted partner for all home services. Connecting you with verified professionals for quality work at
@@ -63,7 +63,7 @@ export default function Footer() {
               </div>
               <div className="flex items-center space-x-2 text-sm text-gray-300">
                 <Mail className="h-4 w-4" />
-                <span>support@yarfix.com</span>
+                <span>support@yaarfix.com</span>
               </div>
               <div className="flex items-center space-x-2 text-sm text-gray-300">
                 <MapPin className="h-4 w-4" />
@@ -92,7 +92,7 @@ export default function Footer() {
         {/* Bottom Section */}
         <div className="border-t border-gray-700 mt-12 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
-            <p className="text-gray-300 text-sm">© 2024 YarFix. All rights reserved. Najaf Ali Shah</p>
+            <p className="text-gray-300 text-sm">© 2024 YaarFix. All rights reserved. Najaf Ali Shah</p>
 
             {/* Social Links */}
             <div className="flex space-x-4">

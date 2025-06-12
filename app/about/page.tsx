@@ -46,7 +46,7 @@ export default function AboutPage() {
       name: "Ahmed Khan",
       role: "Founder & CEO",
       image: "/images/yarfix-professional.jpeg",
-      bio: "With over 15 years of experience in home services, Ahmed founded YarFix to connect quality professionals with homeowners.",
+      bio: "With over 15 years of experience in home services, Ahmed founded YaarFix to connect quality professionals with homeowners.",
     },
     {
       name: "Najaf Ali Shah",
@@ -64,7 +64,7 @@ export default function AboutPage() {
         <section className="bg-slate-800 text-white py-20">
           <div className="container mx-auto px-4">
             <div className="max-w-3xl mx-auto text-center">
-              <h1 className="text-4xl lg:text-5xl font-bold mb-6">About YarFix</h1>
+              <h1 className="text-4xl lg:text-5xl font-bold mb-6">About YaarFix</h1>
               <p className="text-xl text-gray-300 mb-8">
                 Connecting quality service professionals with homeowners since 2019
               </p>
@@ -88,7 +88,7 @@ export default function AboutPage() {
                 <h2 className="text-3xl font-bold text-slate-800 mb-6">Our Story</h2>
                 <div className="space-y-4 text-gray-600">
                   <p>
-                    YarFix was founded in 2019 with a simple mission: to make home services accessible, reliable, and
+                    YaarFix was founded in 2019 with a simple mission: to make home services accessible, reliable, and
                     hassle-free for everyone. What started as a small team operating from Iqra University, Airport
                     Karachi, has now grown into a trusted platform connecting thousands of homeowners with verified
                     service professionals.
@@ -99,7 +99,7 @@ export default function AboutPage() {
                     benefit both homeowners and skilled professionals.
                   </p>
                   <p>
-                    Today, YarFix is the go-to platform for all home service needs in Karachi and surrounding areas. We
+                    Today, YaarFix is the go-to platform for all home service needs in Karachi and surrounding areas. We
                     continue to grow our network of verified professionals while maintaining our commitment to quality,
                     reliability, and customer satisfaction.
                   </p>
@@ -111,7 +111,7 @@ export default function AboutPage() {
                 </div>
               </div>
               <div className="relative h-[400px] rounded-lg overflow-hidden shadow-xl">
-                <Image src="/images/yarfix-team-member.png" alt="YarFix founder" fill className="object-cover" />
+                <Image src="/images/yarfix-team-member.png" alt="YaarFix founder" fill className="object-cover" />
               </div>
             </div>
           </div>
@@ -123,7 +123,7 @@ export default function AboutPage() {
             <div className="text-center mb-12">
               <h2 className="text-3xl font-bold text-slate-800 mb-4">Our Values</h2>
               <p className="text-gray-600 max-w-2xl mx-auto">
-                These core principles guide everything we do at YarFix, from how we select our professionals to how we
+                These core principles guide everything we do at YaarFix, from how we select our professionals to how we
                 serve our customers.
               </p>
             </div>
@@ -153,7 +153,7 @@ export default function AboutPage() {
             <div className="text-center mb-12">
               <h2 className="text-3xl font-bold text-slate-800 mb-4">Our Leadership</h2>
               <p className="text-gray-600 max-w-2xl mx-auto">
-                Meet the team behind YarFix who are passionate about transforming the home services industry.
+                Meet the team behind YaarFix who are passionate about transforming the home services industry.
               </p>
             </div>
 

@@ -29,7 +29,7 @@ export default function Header() {
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
           <Link href="/" className="text-2xl font-bold text-orange-400">
-            YarFix
+            YaarFix
             <span className="text-sm text-gray-300 ml-2">Home Services</span>
           </Link>
 
