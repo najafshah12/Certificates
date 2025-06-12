@@ -75,8 +75,8 @@ export default function ProjectSection() {
                     <SelectContent>
                       <SelectItem value="cleaning">House Cleaning</SelectItem>
                       <SelectItem value="handyman">Handyman</SelectItem>
-                      <SelectItem value="electrical">Electrical Work</SelectItem>
                       <SelectItem value="plumbing">Plumbing</SelectItem>
+                      <SelectItem value="electrical">Electrical Work</SelectItem>
                       <SelectItem value="painting">Painting</SelectItem>
                       <SelectItem value="moving">Moving</SelectItem>
                     </SelectContent>
@@ -160,15 +160,22 @@ export default function ProjectSection() {
               })}
             </div>
 
-            {/* Image Collage */}
-            <div className="relative">
+            {/* Image */}
+            <div className="relative rounded-lg overflow-hidden shadow-lg">
               <Image
-                src="/images/services-bg.png"
-                alt="Professional services collage"
+                src="/images/plumber-bathroom.png"
+                alt="Professional plumber at work"
                 width={500}
                 height={400}
-                className="rounded-lg shadow-lg w-full"
+                className="w-full"
               />
+              <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent flex items-end">
+                <div className="p-6">
+                  <p className="text-white font-medium">
+                    "Our professionals are ready to tackle any project, big or small."
+                  </p>
+                </div>
+              </div>
             </div>
           </div>
         </div>

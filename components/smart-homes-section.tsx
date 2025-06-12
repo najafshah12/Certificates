@@ -56,41 +56,41 @@ export default function SmartHomesSection() {
           <div className="relative">
             <div className="grid grid-cols-2 gap-4">
               <div className="space-y-4">
-                <div className="h-32 bg-blue-200 rounded-lg overflow-hidden">
+                <div className="h-48 rounded-lg overflow-hidden shadow-md">
                   <Image
-                    src="/placeholder.svg?height=128&width=200"
-                    alt="Service professional 1"
-                    width={200}
-                    height={128}
+                    src="/images/plumber-bathroom.png"
+                    alt="Plumber fixing bathroom sink"
+                    width={300}
+                    height={200}
                     className="w-full h-full object-cover"
                   />
                 </div>
-                <div className="h-40 bg-green-200 rounded-lg overflow-hidden">
+                <div className="h-40 rounded-lg overflow-hidden shadow-md">
                   <Image
-                    src="/placeholder.svg?height=160&width=200"
-                    alt="Service professional 2"
-                    width={200}
+                    src="/images/yarfix-team-member.png"
+                    alt="YarFix team member"
+                    width={300}
                     height={160}
                     className="w-full h-full object-cover"
                   />
                 </div>
               </div>
               <div className="space-y-4 mt-8">
-                <div className="h-40 bg-orange-200 rounded-lg overflow-hidden">
+                <div className="h-40 rounded-lg overflow-hidden shadow-md">
                   <Image
-                    src="/placeholder.svg?height=160&width=200"
-                    alt="Service professional 3"
-                    width={200}
+                    src="/images/plumber-sink.png"
+                    alt="Plumber fixing sink"
+                    width={300}
                     height={160}
                     className="w-full h-full object-cover"
                   />
                 </div>
-                <div className="h-32 bg-purple-200 rounded-lg overflow-hidden">
+                <div className="h-48 rounded-lg overflow-hidden shadow-md">
                   <Image
-                    src="/placeholder.svg?height=128&width=200"
-                    alt="Service professional 4"
-                    width={200}
-                    height={128}
+                    src="/images/plumber-sink-2.png"
+                    alt="Professional plumbing service"
+                    width={300}
+                    height={200}
                     className="w-full h-full object-cover"
                   />
                 </div>

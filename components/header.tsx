@@ -2,12 +2,14 @@
 
 import { useState } from "react"
 import Link from "next/link"
+import { usePathname } from "next/navigation"
 import { Menu } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet"
 
 export default function Header() {
   const [isOpen, setIsOpen] = useState(false)
+  const pathname = usePathname()
 
   const navItems = [
     { name: "Home", href: "/" },
@@ -16,6 +18,10 @@ export default function Header() {
     { name: "Contact", href: "/contact" },
     { name: "Pricing", href: "/pricing" },
   ]
+
+  const isActive = (path: string) => {
+    return pathname === path
+  }
 
   return (
     <header className="bg-slate-800 text-white sticky top-0 z-50">
@@ -30,7 +36,13 @@ export default function Header() {
           {/* Desktop Navigation */}
           <nav className="hidden md:flex items-center space-x-8">
             {navItems.map((item) => (
-              <Link key={item.name} href={item.href} className="hover:text-orange-400 transition-colors">
+              <Link
+                key={item.name}
+                href={item.href}
+                className={`transition-colors ${
+                  isActive(item.href) ? "text-orange-400" : "hover:text-orange-400 text-white"
+                }`}
+              >
                 {item.name}
               </Link>
             ))}
@@ -57,7 +69,9 @@ export default function Header() {
                   <Link
                     key={item.name}
                     href={item.href}
-                    className="text-lg hover:text-orange-400 transition-colors"
+                    className={`text-lg transition-colors ${
+                      isActive(item.href) ? "text-orange-400" : "hover:text-orange-400"
+                    }`}
                     onClick={() => setIsOpen(false)}
                   >
                     {item.name}

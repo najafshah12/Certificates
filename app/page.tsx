@@ -3,6 +3,7 @@ import HeroSection from "@/components/hero-section"
 import FeaturesSection from "@/components/features-section"
 import SmartHomesSection from "@/components/smart-homes-section"
 import ServicesSection from "@/components/services-section"
+import ProfessionalsSection from "@/components/professionals-section"
 import ProjectSection from "@/components/project-section"
 import Footer from "@/components/footer"
 
@@ -15,6 +16,7 @@ export default function HomePage() {
         <FeaturesSection />
         <SmartHomesSection />
         <ServicesSection />
+        <ProfessionalsSection />
         <ProjectSection />
       </main>
       <Footer />
